@@ -1,7 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
-const HtmlWebpackPlugin = require('html-webpack-plugin') // uses index.template.ejs for entrypoint
-const CleanWebpackPlugin = require('clean-webpack-plugin') // deletes unused /dist files
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 module.exports = {
   entry: {
@@ -15,7 +15,6 @@ module.exports = {
 
   devServer: {
     contentBase: './dist',
-    compress: true,
     hot: true,
     port: 3005,
   },
