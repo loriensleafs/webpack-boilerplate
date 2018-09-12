@@ -2,6 +2,8 @@
 
 A "minimalist" Webpack boilerplate for loading all our wonderful JavaScript dependencies.
 
+You should have just used `create-react-app`!
+
 ## Installation
 
 ```bash
@@ -17,6 +19,7 @@ npm install
 - Clean Webpack - clean generated `dist` folder
 - Hot Module Replacement - only reload the part that has changed
 - Webpack Dev Server - launch a local server for development
+- Extract Text
 
 ## Commands
 
@@ -33,3 +36,23 @@ Generate `dist` folder with `app.bundle.js` and `index.html`.
 ### npm watch
 
 Watch for changes without the live dev server.
+
+## Dependencies
+
+```
+npm i -D
+  @babel/core \
+  @babel/preset-env \
+  babel-loader \
+  clean-webpack-plugin \
+  css-loader \
+  extract-text-webpack-plugin \
+  html-webpack-plugin \
+  node-sass \
+  postcss-loader \
+  sass-loader \
+  style-loader \
+  webpack \
+  webpack-cli \
+  webpack-dev-server \
+```
