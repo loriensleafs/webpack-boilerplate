@@ -1,8 +1,6 @@
 # Webpack Boilerplate
 
-A "minimalist" Webpack boilerplate for loading all our wonderful JavaScript dependencies.
-
-You should have just used `create-react-app`!
+A minimalist Webpack boilerplate to use the latest JavaScript, and compile Sass into CSS.
 
 ## Installation
 
@@ -19,7 +17,6 @@ npm install
 - Clean Webpack - clean generated `dist` folder
 - Hot Module Replacement - only reload the part that has changed
 - Webpack Dev Server - launch a local server for development
-- Extract Text
 
 ## Commands
 
@@ -46,7 +43,6 @@ npm i -D
   babel-loader \
   clean-webpack-plugin \
   css-loader \
-  extract-text-webpack-plugin \
   html-webpack-plugin \
   node-sass \
   postcss-loader \

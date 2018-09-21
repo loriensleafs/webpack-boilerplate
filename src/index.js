@@ -1,7 +1,7 @@
 import Component from './components/Component'
-import './primitive.scss'
+import './style.scss'
 
-const hello = Component('h1', 'Hello, Primitive!')
+const hello = Component('h1', 'Hello, Webpack!', 'demo', 'main-heading')
 const root = document.getElementById('root')
 
 root.appendChild(hello)
